@@ -8,8 +8,15 @@
     --gray-800:#202024;
     --gray-900:#121214;
 
-    --cian-600:#0e7490;
+    --cian-600:#0891b2;
+    --cian-500:#06b6d4;
+    --cian-400:#22d3ee;
 
+}
+
+:focus{
+    outline: transparent;
+    box-shadow: 0 0 0 2px var(--cian-600);
 }
 
 *{
