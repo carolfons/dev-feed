@@ -11,7 +11,7 @@
 
 @media (max-width: 768px) {
   html{
-    font-size: 87.5%;
+    font-size: 87.5%; /*14px*/
   }
   .wrapper {
     grid-template-columns: 1fr; /*o gride vai ter apenas 1 coluna*/

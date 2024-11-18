@@ -12,3 +12,11 @@
     height: 2rem;  /* 2rem = 32px */
     
 }
+
+.header h1{
+    color: var(--cian-500);
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-left: 1rem;  
+    font-family: "alfarn", sans-serif; 
+}
