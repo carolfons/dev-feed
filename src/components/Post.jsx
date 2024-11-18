@@ -39,7 +39,17 @@ export function Post({author, content, publishedAt}) {
   }
 
   function deleteComment(commentToDelete) {
-   console.log(`Deletar comentário ${commentToDelete}`);
+
+    //imutabilidade -> as variáveis não sofrem mutação, nós criamos um novo valor (um novo espaço na memória)
+   
+    //criando uma nova lista sem o comentário deletado
+    const commentsWithoutDeleteOne = comments.filter(comment => {
+      //retornando todos os comentários que não são iguais ao comentário que está sendo deletado
+      return comment !== commentToDelete;
+    });
+    
+    //atualizando o estado com os comentários que não foram deletados
+    setComments(commentsWithoutDeleteOne);  
    	
   }
 
