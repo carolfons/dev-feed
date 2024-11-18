@@ -119,6 +119,11 @@
     background: var(--cian-600);
 }
 
+.commentForm button[type=submit]:disabled{
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
 .commentList{
     margin-top: 2rem;
 }

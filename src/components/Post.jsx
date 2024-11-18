@@ -35,7 +35,13 @@ export function Post({author, content, publishedAt}) {
 
   //função para setar o valor do novo comentário
   function handleNewCommentChange() {
+    event.target.setCustomValidity('');
     setNewCommentText(event.target.value);
+  }
+
+  function handleNewCommentInvalid() {
+    //validando se o campo está preenchido 
+    event.target.setCustomValidity('Esse campo é obrigatório!');
   }
 
   function deleteComment(commentToDelete) {
@@ -47,11 +53,14 @@ export function Post({author, content, publishedAt}) {
       //retornando todos os comentários que não são iguais ao comentário que está sendo deletado
       return comment !== commentToDelete;
     });
-    
+
     //atualizando o estado com os comentários que não foram deletados
     setComments(commentsWithoutDeleteOne);  
    	
   }
+
+  //variável para verificar se o novo comentário está vazio desabilitando o botão
+  const isNewCommentEmpty = newCommentText.length === 0;
 
 
   return (
@@ -91,10 +100,12 @@ export function Post({author, content, publishedAt}) {
         name="comment"
         value={newCommentText}
         placeholder="Deixe um comentário"
-        onChange={handleNewCommentChange} />
+        onChange={handleNewCommentChange}
+        onInvalid={handleNewCommentInvalid}
+        required/>
         <footer>
-          <button type="submit">Publicar</button>
-        </footer>
+          {/*se o length do comentário for maior que 0, então o botão está habilitado */}
+          <button type="submit" disabled={isNewCommentEmpty}>Publicar</button></footer> 
       </form>
 
       <div className={styles.commentList}>
