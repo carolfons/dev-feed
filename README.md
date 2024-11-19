@@ -1,8 +1,25 @@
-# React + Vite
+## <img src = "https://github.com/carolfons/dev-feed/blob/main/src/assets/BuzzTed.png" width="50" height="50"> DEV FEED
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🎯 Objetivos do Projeto
+- Entender melhor o gerenciamento de estado com hooks como useState e useEffect.
+- Trabalhar com componentes reutilizáveis para um código mais modular.
+- Simular interações como curtidas, comentários e atualizações de postagens.
 
-Currently, two official plugins are available:
+## 🛠️ Tecnologias Utilizadas
+- React: Biblioteca para construção de interfaces.
+- JavaScript (ES6+): Base para a lógica do projeto.
+- CSS: Para estilizar os componentes.
+- Vite: Ferramenta para inicialização e build do projeto.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Funcionalidades
+- 📜 Visualização de postagens no formato de feed.
+- 💬 Interação com botões de curtidas e comentários.
+- ⚡ Atualização em tempo real de novos comentários.
+- 🖌️ Layout responsivo para uma boa experiência em dispositivos móveis e desktops.
+
+## 📚 O projeto
+
+
+---
+
+<p align="center">Desenvolvido por Caroline Fonseca</p>
