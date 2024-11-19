@@ -20,7 +20,7 @@ A Dev Feed é uma aplicação simples de feed de postagens inspirada no Twitter,
 - 🖌️ Layout responsivo para uma boa experiência em dispositivos móveis e desktops.
 
 ## 📚 O projeto
-<a href = "https://dev-feed-mh0z1n2au-carolfons-projects.vercel.app/"> Deploy </a>
+<a href = "https://dev-feed-one.vercel.app/"> Deploy </a>
 
 
 ---
