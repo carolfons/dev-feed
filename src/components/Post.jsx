@@ -9,7 +9,7 @@ import { useState } from "react";
 export function Post({author, content, publishedAt}) {
 
   const [comments, setComments] = useState([
-   'Muito Bom!',
+   'Nice!',
   ]);
 
   const [newCommentText, setNewCommentText] = useState('');
@@ -85,7 +85,7 @@ export function Post({author, content, publishedAt}) {
           } else if (line.type === "link") {
             return (
               <p key={line.content}> 👉 
-                <a href="#">{line.content}</a>
+                <a href={line.link}>{line.content}</a>
               </p>
             );
           }

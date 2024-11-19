@@ -23,14 +23,14 @@ const posts = [
   {
     id: 2,
     author: {
-      avatarUrl: 'https://github.com/maykbrito.png',
-      name: 'Mayk Brito',
-      role: 'Educator @Rocketseat'
+      avatarUrl: 'https://github.com/mopig.png',
+      name: 'mopig',
+      role: 'Web Front-end Developer'
     },
   content: [
-      {type: 'paragraph', content: 'Fala galeraa 👋'},
-      {type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀'},
-      {type: 'link', content: 'jane.design/doctorcare'},
+      {type: 'paragraph', content: 'Hello Guys'},
+      {type: 'paragraph', content: 'New Project! Check it out!'},
+      {type: 'link', content: 'https://github.com/mopig/mopig'},
     ],
     publishedAt: new Date('2024-11-12 10:00:00'),
   }
