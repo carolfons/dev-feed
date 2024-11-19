@@ -1,5 +1,7 @@
 ## <img src = "https://github.com/carolfons/dev-feed/blob/main/src/assets/BuzzTed.png" width="50" height="50"> DEV FEED
 
+A Dev Feed é uma aplicação simples de feed de postagens inspirada no Twitter, desenvolvida com base nas aulas da Rocketseat para aprofundar meus conhecimentos em React. 
+
 ## 🎯 Objetivos do Projeto
 - Entender melhor o gerenciamento de estado com hooks como useState e useEffect.
 - Trabalhar com componentes reutilizáveis para um código mais modular.
@@ -18,6 +20,7 @@
 - 🖌️ Layout responsivo para uma boa experiência em dispositivos móveis e desktops.
 
 ## 📚 O projeto
+<a href = "https://dev-feed-mh0z1n2au-carolfons-projects.vercel.app/"> Deploy </a>
 
 
 ---
